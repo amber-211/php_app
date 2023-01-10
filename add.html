@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>Add Data</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+   
+    <br/><br/>
+    <a href="index.php"  class="btn btn-info m-4">See Records</a>
+    <form action="add.php" method="post" name="form1" class="m-5">
+        <table width="25%" border="0">
+            <tr > 
+                <td >title</td>
+                <td><input type="text" class="form-control  m-3" name="title"></td>
+            </tr>
+            <tr> 
+                <td >author_name</td>
+                <td><input type="text" class="form-control m-3" name="author_name"></td>
+            </tr>
+            <tr> 
+                <td >language</td>
+                <td><input type="text" class="form-control m-3" name="language"></td>
+            </tr>
+            <tr> 
+                <td >category</td>
+                <td><input type="text" class="form-control m-3" name="category"></td>
+            </tr>
+            <tr> 
+                <td></td>
+                <td><input type="submit"  class="btn btn-primary" name="Submit" value="Add"> </td> 
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
